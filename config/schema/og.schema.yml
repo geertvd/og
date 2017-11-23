@@ -208,3 +208,11 @@ field.widget.settings.og_autocomplete:
     placeholder:
       type: label
       label: 'Placeholder'
+
+views.access.og_perm:
+  type: mapping
+  label: 'Permission'
+  mapping:
+    perm:
+      type: string
+      label: 'Permission'
